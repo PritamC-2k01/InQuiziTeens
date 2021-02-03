@@ -81,13 +81,7 @@ INSERT INTO `questions` (`qs`, `option1`, `option2`, `option3`, `option4`, `ans`
 
 <b> In the quiz.php file , please add your first question , options and answer at the mentioned line .</b>
 
-<h2>5: Procedure to use GOOGLE'S SMTP EMAIL VERIFICATION feature </h2>
-
-# Simple Contact Form with PHPMailer
-
-A simple contact form with PHPMailer, reCAPTCHA and Bootstrap.
-
-Use this to provide a simple contact form on your own website, and send the messages with SMTP. Or use this as a basis or example to create your own contact form. 
+<h2>5: How to use GOOGLE'S SMTP EMAIL VERIFICATION feature </h2>
 
 ## Getting Started (<b> This is only applicable for websites hosted by InfinityFreeHosting</b>)
 
@@ -120,4 +114,44 @@ This contact form has been integrated with reCAPTCHA v2 with the Checkbox challe
 4. Under Domains, enter the domain name of your website.
 5. Accept the reCAPTCHA terms and click Send.
 
+<h2> 6: A quick overview of our file system tree </h2>
+<h3> Extract the zip files <i style="color:red">email</i> and <i style="color:red">vendor</i> inside your parent directory
 
+<div>
+    <pre>
+├── app.css
+├── email
+├── end.php
+├── favicon
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   └── site.webmanifest
+├── functions.php
+├── images
+│   ├── 21.jpg
+│   ├── 2.jpg
+│   └── 9.png
+├── index.php
+├── landingpage.php
+├── loader.gif
+├── logo.png
+├── logout.php
+├── main.js
+├── otp.php
+├── pdo.php
+├── questionstyle.css
+├── quiz1.php
+├── quiz-bg.png
+├── quiz.php
+├── sign.php
+├── style2.css
+├── style.css
+├── submit.php
+└── vendor
+
+    </pre>
+</div>
