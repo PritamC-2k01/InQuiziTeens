@@ -71,8 +71,7 @@ CREATE TABLE `feedback` (
   CONSTRAINT FOREIGN KEY(user_id)
   REFERENCES users(user_id)
   ON DELETE CASCADE ON UPDATE CASCADE
-)
-...
+);
 
 <h2>4: Inserting Questions, Options and Answer </h2>
 ```sql
