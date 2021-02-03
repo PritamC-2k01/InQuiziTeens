@@ -72,7 +72,10 @@ CREATE TABLE `feedback` (
   REFERENCES users(user_id)
   ON DELETE CASCADE ON UPDATE CASCADE
 )
-
 ...
 
-<h3>
+<h2>4: Inserting Questions, Options and Answer </h2>
+```sql
+INSERT INTO `questions` (`qs`, `option1`, `option2`, `option3`, `option4`, `ans`, `image`) VALUES ('YOUR QS 1','OPTION 1','OPTION 2','OPTION3',' OPTION4 ','ANSWER','IMAGE_URL')
+```
+<b> In the quiz.php file , please add your first question , options and answer at the mentioned line .</b>
