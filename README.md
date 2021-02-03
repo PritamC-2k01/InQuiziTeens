@@ -27,6 +27,7 @@ CREATE DATABASE quiz;
     GRANT ALL ON workspace.* TO 'example'@localhost;
 ```
 <h2>3: Creating All Tables</h2>
+
 ```sql
 CREATE TABLE `users` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -36,7 +37,7 @@ CREATE TABLE `users` (
   `school` varchar(255) DEFAULT NULL,
   PRIMARY KEY(user_id)
 );
-
+...
 
 CREATE TABLE `questions` (
   `qs_id` int(11) NOT NULL AUTO_INCREMENT,
