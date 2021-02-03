@@ -225,23 +225,28 @@ $.post('quiz1.php',{
       <div class="questions">
             <div class="form">
                 <div id="game" class="justify-center flex-column">
-                    <h3 id="quesiton">Identify this man, regarded as the "Father of Silicon Valley".</h3>
-                    <img id="quiz-img" src="images/2.jpg" alt="" width="200" height="250">
+                    
+                     <!-- Below here you just need to insert the first question, options ansewer, image url in the respective postions shown below ,
+ and then upon clicking the NEXT button it will automtically fetch all questions amd respective options from database,
+ Looking forard to your contributions to fix this issue :) -->
+                    
+                    <h3 id="quesiton">YOUR FIRST QUESTION</h3>
+                    <img id="quiz-img" src="iIMAGE_URL" alt="" width="200" height="250">
                     <button class="choice-container" onclick="content1();"  >
                         <p class="choice-prefix">A</p>
-                        <p id="option1" >William Shockley</p>
+                        <p id="option1" >OPTION1</p>
                     </button>
                     <button class="choice-container" onclick="content2();" >
                         <p class="choice-prefix">B</p>
-                        <p id="option2">F. C. Kohli</p>
+                        <p id="option2">OPTION2</p>
                     </button>
                     <button class="choice-container" onclick="content3();">
                         <p class="choice-prefix">C</p>
-                        <p id="option3">Frederick Terman</p>
+                        <p id="option3">OPTION3</p>
                     </button>
                     <button class="choice-container" onclick="content4();">
                         <p class="choice-prefix">D</p>
-                        <p id="option4">Lewis Terman</p>
+                        <p id="option4">OPTION4</p>
                     </button>
 
                     <div class="next-button">
