@@ -115,7 +115,7 @@ This contact form has been integrated with reCAPTCHA v2 with the Checkbox challe
 5. Accept the reCAPTCHA terms and click Send.
 
 <h2> 6: A quick overview of our file system tree </h2>
-<h3> Extract the zip files <span style="font color:red;">email</span> and <span style="font color:red;">vendor</span> inside your parent directory
+<h3> Extract the zip files <span style="color:red;">email</span> and <span style="color:red;">vendor</span> inside your parent directory
 
 <div>
     <pre>
